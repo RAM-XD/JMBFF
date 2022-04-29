@@ -187,7 +187,7 @@ def kata_buat_server():
 			time.sleep(1)
 	kata_buat_server()
 von = requests.get("https://pastebin.com/raw/HCiGRyu1").text.strip()
-if "OF" in von:pass
+if "ON" in von:pass
 else:
 	os.system("git pull;clear")
 	print(f"{P}[•] {M}Maaf Script Sedang Maintenance, Harap Tunggu Hingga Selesai")
@@ -3091,5 +3091,4 @@ if __name__=='__main__':
 	login()
 #	grup()
 #	nama()
-
 
